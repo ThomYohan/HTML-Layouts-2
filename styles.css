@@ -1,0 +1,118 @@
+body{
+    background:brown;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: -40px;
+    color: #F8C471;
+}
+.top1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 75px;
+    font-weight: lighter;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 435px;
+    margin-right: 435px;
+    font-size: 14.7px;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav{
+    background:#4F3200;
+    width: 100%;
+    margin-top: 100px;
+}
+.mid{
+    padding: 55px;
+    height: 700px;
+    text-align: center;
+    background: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.mid-container{
+    /* padding: 55px; */
+    width: 75%;
+    height: 92%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* text-align: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: auto;
+    justify-content: flex-start; */
+}
+
+.mid-text{
+    position: absolute;
+    top: 50px;
+    left: -250px;
+    width: 500px;
+    background: white;
+    height: 350px;
+    padding: 50px;
+}
+
+.mid1{
+    font-weight: bold;
+}
+.mid2{
+    font-size: 50px;
+    display: flex;
+    font-weight: lighter;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.mid3{
+    width: 75%;
+    position: absolute;
+    align-items: center;
+    line-height: 25px;
+}
+.mid4{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bot{
+    position: relative;
+    height: 550px;
+}
+.feeter{
+    position: relative;
+    height: 200px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
